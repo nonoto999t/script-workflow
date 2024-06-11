@@ -6,7 +6,7 @@ on:
     - cron: '0 19 * * *'
 jobs:
   Run-On-Windows:
-    runs-on: windows-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
 
